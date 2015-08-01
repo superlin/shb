@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>散户帮-简单好用的股市历史数据查询工具</title>
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<section class='warpper'>
+		<div class="color-bar"></div>
+		<div class="main-holder">
+			<div class='mian-title'>
+				<h1>散户帮</h1>
+				<h2>简单好用的股市历史数据查询工具</h2>
+			</div>
+			<div class="search-holder">
+				<div class="input-group">
+					<input id='search-txt' type="text" placeholder="输入事件（如：单日跌幅5%，印花税下降）">
+					<span><button id='search-btn'>查询</button></span>
+				</div>
+				<p class="search-error hide">事件不能为空</p>
+			</div>
+			<div class="bg-holder">
+				<img src="img/bg.png" alt="main pic">
+			</div>
+		</div>
+	</section>
+	<section class="result">
+		<header class="res-header">
+			<div class="header-content">
+				<div>
+					<h3>散户帮</h3>
+					<h4>简单好用的股市历史数据查询工具</h4>
+				</div>
+				<!--<div style="float: right; margin-top: 20px">
+					<div class="input-group">
+						<input type="text" placeholder="输入事件">
+						<span><button>查询</button></span>
+					</div>
+				</div>-->
+			</div>
+		</header>
+		<div class="res-content">
+			<p class="search-tip">感谢您的搜索，近10年来上证指数单日跌幅超过5%总过发送过27次</p>
+			<div>
+				<table>
+					<tr>
+						<th>#</th>
+						<th>日期</th>
+						<th>上证指数跌幅</th>
+						<th>次日涨跌</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>2006/06/07</td>
+						<td>-5.33</td>
+						<td>0.12</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>2007/02/27</td>
+						<td>-8.84</td>
+						<td>3.94</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>2007/05/30</td>
+						<td>-6.50</td>
+						<td>1.40</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>2007/06/04</td>
+						<td>-8.26</td>
+						<td>2.63</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>2007/07/05</td>
+						<td>-5.25</td>
+						<td>4.58</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>2008/01/21</td>
+						<td>-5.14</td>
+						<td>-7.22</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>2008/01/22</td>
+						<td>-7.22</td>
+						<td>3.14</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>2008/03/27</td>
+						<td>-5.42</td>
+						<td>4.94</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>2008/04/09</td>
+						<td>-5.50</td>
+						<td>1.69</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>2008/04/14</td>
+						<td>-5.62</td>
+						<td>1.57</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>2008/06/10</td>
+						<td>-7.73</td>
+						<td>-1.57</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>2008/06/19</td>
+						<td>-6.54</td>
+						<td>3.01</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>2008/06/27</td>
+						<td>-5.29</td>
+						<td>0.45</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>2008/08/11</td>
+						<td>-5.21</td>
+						<td>-0.52</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>2008/08/18</td>
+						<td>5.33</td>
+						<td>1.06</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>2008/10/06</td>
+						<td>-5.23</td>
+						<td>-0.73</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>2008/10/27</td>
+						<td>-6.32</td>
+						<td>2.81</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>2008/11/18</td>
+						<td>-6.31</td>
+						<td>6.05</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>2009/07/29</td>
+						<td>-5.00</td>
+						<td>1.69</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>2009/08/17</td>
+						<td>-5.79</td>
+						<td>1.40</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>2009/08/31</td>
+						<td>-6.74</td>
+						<td>0.60</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>2010/05/17</td>
+						<td>-5.07</td>
+						<td>1.36</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>2010/11/12</td>
+						<td>-5.16</td>
+						<td>0.97</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>2013/06/24</td>
+						<td>-5.30</td>
+						<td>0.19</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>2014/12/09</td>
+						<td>-5.43</td>
+						<td>2.93</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>2015/01/19</td>
+						<td>-7.70</td>
+						<td>1.82</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>2015/05/28</td>
+						<td>-6.50</td>
+						<td>0.18</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+	
+	<script src="js/app.js"></script>
+</body>
+</html>
