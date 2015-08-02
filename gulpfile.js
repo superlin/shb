@@ -3,13 +3,9 @@ var gulp         = require('gulp');
 var browserSync  = require('browser-sync');
 var server       = require('gulp-develop-server');
 
-var bower        = require('main-bower-files');
 var sass         = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
-var uglify       = require('gulp-uglify');
 var minifyCss    = require('gulp-minify-css');
-var minifyHTML   = require('gulp-htmlmin');
-var concat       = require('gulp-concat');
 
 var base = './public/';
 var paths = {
