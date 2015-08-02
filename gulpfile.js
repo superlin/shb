@@ -54,7 +54,7 @@ gulp.task('scss', function () {
   return gulp.src(paths.scss)
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
-    // .pipe(minifyCss())
+    .pipe(minifyCss())
     .pipe(gulp.dest('public/css'));
 });
 
